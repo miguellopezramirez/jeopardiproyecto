@@ -1,0 +1,102 @@
+/* Contenedor principal */
+.question-table-container {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Título */
+.question-table-container h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #2c3e50; /* Azul grisáceo para un tono más profesional */
+  font-weight: bold;
+}
+
+/* Tabla */
+.question-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Encabezado de tabla */
+.table-header {
+  border: 2px solid #34495e; /* Azul oscuro para un borde fuerte */
+  padding: 15px;
+  background-color: #d4e6f1; /* Azul claro */
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #2c3e50;
+  text-transform: uppercase;
+}
+
+/* Celdas de la tabla */
+.table-cell {
+  border: 1px solid #7f8c8d; /* Gris neutral */
+  padding: 15px;
+  cursor: pointer;
+  background-color: #ecf0f1; /* Blanco suave */
+  text-align: center;
+  font-size: 1.5rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.table-cell:hover {
+  background-color: #bdc3c7; /* Gris más oscuro */
+  transform: scale(1.05);
+}
+
+/* Cambiar color de celdas respondidas */
+.table-cell.answered {
+  background-color: #aab7b8; /* Verde salvia oscuro */
+  cursor: not-allowed;
+  color: #2c3e50; /* Texto más tenue */
+}
+
+/* Botón personalizado */
+.custom-button-alternative {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #4caf50; /* Verde salvia */
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  user-select: none;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.custom-button-alternative:hover {
+  background-color: #45a049; /* Verde más oscuro */
+  transform: scale(1.05);
+}
+
+.custom-button-alternative:active {
+  background-color: #3e8e41; /* Verde más intenso */
+  transform: scale(0.95);
+}
+
+.custom-button-alternative.disabled {
+  background-color: #95a5a6; /* Gris claro */
+  cursor: not-allowed;
+  pointer-events: none;
+  box-shadow: none;
+}
+
+/* Estilo general para contenedores */
+.container {
+  background-color: #f9f9f9; /* Blanco suave */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

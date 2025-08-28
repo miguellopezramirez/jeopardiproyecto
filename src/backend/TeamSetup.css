@@ -1,0 +1,66 @@
+/* Contenedor principal */
+.team-setup-container {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Título */
+  .team-setup-title {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Contenedor de número de equipos */
+  .team-count-container {
+    margin-bottom: 20px;
+  }
+  
+  .team-label {
+    font-size: 2rem;
+    margin-right: 10px;
+    color: #555;
+  }
+  
+  .team-input {
+    font-size: 2rem;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+    
+  }
+  
+  /* Filas de nombres de equipos */
+  .team-names-container {
+    margin-top: 20px;
+  }
+  
+  .team-name-row {
+    margin-bottom: 15px;
+  }
+  
+  /* Botón */
+  .team-setup-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .team-setup-button:hover {
+    background-color: #45a049;
+  }
+  

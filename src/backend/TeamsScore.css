@@ -1,0 +1,36 @@
+/* Contenedor principal */
+.teams-score-container {
+    display: flex; /* Cambiar de columna a fila */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    gap: 20px; /* Separación entre los equipos */
+    padding: 20px;
+  }
+  
+  /* Tarjeta de equipo */
+  .team-card {
+    display: flex;
+    flex-direction: column; /* Mostrar nombre encima del puntaje */
+    align-items: center; /* Centrar el contenido horizontalmente */
+    background-color: #ecf0f1; /* Fondo blanco suave */
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  /* Nombre del equipo */
+  .team-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50; /* Azul grisáceo */
+    margin-bottom: 10px;
+  }
+  
+  /* Puntaje del equipo */
+  .team-score {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #27ae60; /* Verde para puntajes */
+  }
+  
