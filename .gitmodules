@@ -1,0 +1,3 @@
+[submodule "src/assets/extert"]
+	path = src/assets/extert
+	url = https://github.com/miguellopezramirez/assetsJeopardy.git
