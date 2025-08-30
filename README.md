@@ -1,5 +1,5 @@
 # Jeopardy
 Funny Game
-Este cambio busca generar conflicto 
+it's gonna be really intereting
 
-This file was modified by Otmar.
+This file was modified by Otmar and humberto.
